@@ -78,6 +78,14 @@ cd ../../.. && catkin_make
 ```
 source devel/setup.bash
 ```
+You can also add this command to your shell's config file.
+```bash
+echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc # for bash
+```
+```bash
+echo "source ~/catkin_ws/devel/setup.zsh" >> ~/.zshrc # for zsh
+```
+
 
 Finished! Check out the [Usage](usage.md) to start using Arena Benchmark.
 
