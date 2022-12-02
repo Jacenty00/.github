@@ -6,12 +6,20 @@
 - [Poetry](https://python-poetry.org/) and [PyEnv](https://github.com/pyenv/pyenv): we recommend you to use a dependency manager for Python. We use Poetry because its easy to set up and easy to use, but you are open to use any other manager or virtual environment provider.  
 
 We provide a general [guide](requirements.md), where you can follow instructions to get these requirements fullfilled on your system. Afterwards, you can proceed with the steps below.
+
+## Create a workspace
+```bash
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/src
+```
+
 ## Clone the repository
 
 Clone the Arena Benchmark repository in any existing **catkin workspace** or [create a new workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace).
 
 ```bash
 git clone git@github.com:Arena-Rosnav/arena-bench.git
+cd arena-bench
 ```
 
 ## Update ROS workspace
